@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+	.bannerHome .video-container {
+		height: 108vh;
+	}
+	.bannerHome__desc {
+		width: 100%;
+	}
+	.bannerHome__text {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.bannerHome__text h3 {
+		font-size: 26px;
+	}
+	.aboutHome {
+		padding: 50px 0;
+	}
+	.aboutHome .row-chidrend > div:nth-child(2) > .aboutHome__item {
+		transform: translateY(0px);
+	}
+	.aboutHome__item {
+		margin-bottom: 30px;
+	}
+	.statusHome__item {
+		width: calc(100% / 1);
+		padding: 25px;
+		min-height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.statusHome {
+		padding: 30px 0 30px;
+		position: relative;
+	}
+	.videoHome {
+		padding: 30px 0;
+	}
+	.getstartHome h3 , .touristHome h3 , .videoHome h2{
+		font-size: 20px;
+	}
+	.footer__logo {
+		text-align: center;
+	}
+	.footer__nav {
+		text-align: left;
+	}
+	.aboutHome .line {
+		margin-top: 10px;
+	}
+	.newsHome__gallery .owlGallery .owl-next {
+		right: 0;
+	}
+	.newsHome__gallery .owlGallery .owl-next {
+		background-size: 18px 18px !important;
+	}
+	.newsHome__gallery {
+		margin-left: 0;
+	}
+	.newsHome__gallery h3 {
+		font-size: 20px;
+	}
+	.timeHome__item {
+		margin-bottom: 30px;
+		background: #fff;
+	}
+	.timeHome__ul:before {
+		width: 8px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.timeHome__icon:before {
+		border-right: 0;
+		left: 0px;
+		border-top: 8px solid #fff;
+		top: -8px;
+	}
+	.timeHome__ul ul li:nth-child(3) .timeHome__item {
+		margin-bottom: 0;
+	}
+	.header__logo img {
+		width: 75px;
+	}
+}
+@media (max-width: 320px) {
+	.bannerHome .video-container {
+		height: 130vh;
+	}
+}

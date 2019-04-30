@@ -1,0 +1,60 @@
+@media (max-width: 1024px) {
+	.bannerHome .video-container {
+		height: 48vh;
+	}
+	.bannerHome #video-background {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		transform: translateX(-50%) translateY(-50%);
+		transition: 1s opacity;
+	}
+	.statusHome__item {
+		padding: 30px;
+	}
+}
+
+@media(max-width: 993px) {
+	.header {
+		margin-top: 0;
+	}
+	.header__nav, .header__login {
+		display: none;
+	}
+	.bannerHome .video-container {
+		height: 56vh;
+	}
+	.touristHome__btn {
+		margin: 10px 0 0 12px;
+	}
+	.statusHome__item {
+		padding: 20px;
+	}
+	.js-trigger-video-modal img {
+		width: 60px;
+	}
+	.header__mobile {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.bannerHome {
+		margin-top: -102px;
+	}
+	.newsHome__text {
+		padding: 15px;
+	}
+	.btn-menu {
+		display: block;
+	}
+}
+@media (min-width: 768px) {
+	.newsHome__gallery .owlGallery .owl-next {
+		background-size: 25px 25px !important;
+	}
+}

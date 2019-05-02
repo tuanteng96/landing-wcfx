@@ -775,9 +775,16 @@ html, body {
 .ccc-widget.ccc-header-v2::-webkit-scrollbar-track {
   background-color: transparent; }
 
+body .item .btcwdgt {
+  background: transparent !important;
+  box-shadow: none !important; }
+
+body .item .btcwdgt-text-ticker .btcwdgt-edge {
+  background: transparent !important; }
+
 @media (min-width: 1600px) {
   .bannerHome .video-container {
-    height: 72vh; } }
+    height: 75vh; } }
 @media (max-width: 1024px) {
   .bannerHome .video-container {
     height: 48vh; }

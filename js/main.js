@@ -11,6 +11,30 @@ $(document).ready(function(){
         }
     });
 
+
+
+  //
+  //
+  
+  $('.owltreeChart').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots: false,
+    autoplay: 3000,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+
 	/* Toggle Video Modal
   -----------------------------------------*/
 	function toggle_video_modal() {

@@ -728,7 +728,8 @@ html, body {
 .footer {
   padding-top: 30px;
   background: url(../images/bg-footer.png);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  background-size: contain; }
   .footer__desc {
     color: #fff;
     text-align: justify;
@@ -761,6 +762,22 @@ html, body {
     line-height: 40px;
     margin-top: 40px; }
 
+.ccc-widget.ccc-header-v2::-webkit-scrollbar {
+  height: 2px;
+  background-color: transparent; }
+
+.ccc-widget.ccc-header-v2::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(linear, left top, right top, from(#3d81cf), to(#756fe2));
+  background-image: -webkit-linear-gradient(left, #3d81cf, #756fe2);
+  background-image: -o-linear-gradient(left, #3d81cf, #756fe2);
+  background-image: linear-gradient(to right, #3d81cf, #756fe2); }
+
+.ccc-widget.ccc-header-v2::-webkit-scrollbar-track {
+  background-color: transparent; }
+
+@media (min-width: 1600px) {
+  .bannerHome .video-container {
+    height: 72vh; } }
 @media (max-width: 1024px) {
   .bannerHome .video-container {
     height: 48vh; }
